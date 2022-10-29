@@ -6,6 +6,8 @@ app = FastAPI()
 
 origins = [
     "https://hngi9task1.onrender.com",
+    "https://hngi9task1.onrender.com/api/v1/about",
+    "http://0.0.0.0:10000",
 ]
 
 app.add_middleware(
